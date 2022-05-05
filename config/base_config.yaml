@@ -1,3 +1,4 @@
+# Maya import types
 import_type:
   - 'mayaAscii'
   - 'mayaBinary'
@@ -7,9 +8,11 @@ import_type:
   - 'ASS' # Stand-Ins
   - 'USD import'
 
+# Asset/Shot root path
 asset_root: assets/{Asset_type}/{Asset_Name}/{Task}
 seq_root: seq/{Sequence}/{Shot}/{Task}
 
+# Asset/Shot work and publish area
 asset_work_area:
   definition: '@asset_root/work'
 shot_work_area:
