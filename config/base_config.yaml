@@ -1,0 +1,20 @@
+import_type:
+  - 'mayaAscii'
+  - 'mayaBinary'
+  - 'Alembic'
+  - 'FBX'
+  - 'OBJ'
+  - 'ASS' # Stand-Ins
+  - 'USD import'
+
+asset_root: assets/{Asset_type}/{Asset_Name}/{Task}
+seq_root: seq/{Sequence}/{Shot}/{Task}
+
+asset_work_area:
+  definition: '@asset_root/work'
+shot_work_area:
+  definition: '@seq_root/work'
+asset_publish_area:
+  definition: '@asset_root/publish'
+shot_publish_area:
+  definition: '@seq_root/publish'
