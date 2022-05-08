@@ -1,0 +1,10 @@
+{
+    "A:\\pycharm\\mukhtar\\maya-houdini-importers\\test_example\\camera.abc": {
+        "camera": "main_camera"},
+        "A:\\pycharm\\mukhtar\\maya-houdini-importers\\test_example\\output.abc": {
+            "geometry": "sphere"
+        },
+        "A:\\pycharm\\mukhtar\\maya-houdini-importers\\test_example\\test_fbx.fbx": {
+            "fbx": "box"
+        }
+}
